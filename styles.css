@@ -1,13 +1,10 @@
-@font-face {
-  font-family: "Railey-PersonalUse";
-  src: url("/home/bk/.local/share/fonts/Railey-PersonalUse.ttf") format("truetype");
-}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 * {
   background-color: #1b3c3d;
   font-size: 26px;
-  font-family: "Railey-PersonalUse", sans-serif;
-  font-weight: lighter;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 300;
 }
 
 .img-container {
@@ -26,15 +23,16 @@
 
 .recipe-container {
   width: 300px;
+  height: auto;
   border: 2px solid #e1b060;
-  margin: 0px 20px;
   border-radius: 5px;
+  margin: 0px 20px;
   padding-top: 25px;
-  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  cursor: pointer;
   transition: transform 0.7s ease;
 }
 
